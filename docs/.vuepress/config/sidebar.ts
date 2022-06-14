@@ -3,24 +3,31 @@ export const sidebar: SidebarConfig = {
   '/components/': [{
     text: '通用',
     children: [{
-      text: 'Button 按钮',
-      link: '/components/pages/Button',
+      text: 'ImageButton 按钮',
+      link: '/components/pages/ImageButton',
     }],
     collapsible: false
   }, {
-    text: '数据录入',
+    text: '布局切换',
     children: [{
-      text: 'Slider 滑动组件',
-      link: '/components/pages/Slider',
+      text: 'LayoutSwitch 组件',
+      link: '/components/pages/LayoutSwitch',
     }],
     collapsible: false
   },
   {
-    text: '数字输入框',
-    
+    text: '序列列表',
     children: [{
-      text: 'InputNumber 数字输入框',
-      link: '/components/pages/InputNumber',
+      text: 'SeriesList 组件',
+      link: '/components/pages/SeriesList',
+    }],
+    collapsible: false
+  },
+  {
+    text: '组织列表',
+    children: [{
+      text: 'TissueList 组件',
+      link: '/components/pages/TissueList',
     }],
     collapsible: false
   },

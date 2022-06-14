@@ -1,24 +1,10 @@
 import { defineUserConfig } from "@vuepress/cli";
-import { prismjsPlugin } from "@vuepress/plugin-prismjs";
 import { defaultTheme } from "@vuepress/theme-default";
 import { path } from '@vuepress/utils';
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components';
 import { navbar } from './config/navbar';
 import { sidebar } from './config/sidebar';
-const locales = {
-  '/': {
-    'hide-text': 'Hide',
-    'show-text': 'Expand',
-    'copy-button-text': 'Copy',
-    'copy-success-text': 'Copy success'
-  },
-   '/zh': {
-    'hide-text': '隐藏代码',
-    'show-text': '显示代码',
-    'copy-button-text': '复制代码片段', 
-    'copy-success-text': '复制成功'
-  }
-}
+const demoblockPlugin = require('vuepress-plugin-demoblock-plus')
 
 export default defineUserConfig({
   locales: {
@@ -51,9 +37,7 @@ export default defineUserConfig({
     },
   },
   plugins: [
-    prismjsPlugin({
-      preloadLanguages: ["autohotkey", "dart", "r"],
-    }),
+    demoblockPlugin(''),
     [
       registerComponentsPlugin({
         componentsDir: path.resolve(__dirname, './components'),
