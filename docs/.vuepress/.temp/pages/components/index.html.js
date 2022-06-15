@@ -6,7 +6,16 @@ export const data = {
   "frontmatter": {},
   "excerpt": "",
   "headers": [],
-  "git": {},
+  "git": {
+    "updatedTime": 1655206536000,
+    "contributors": [
+      {
+        "name": "qinglei.zhang",
+        "email": "qinglei.zhang@united-imaging.com",
+        "commits": 2
+      }
+    ]
+  },
   "filePathRelative": "components/README.md"
 }
 

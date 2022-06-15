@@ -1599,10 +1599,10 @@
   "resolved" "https://registry.npmjs.org/uc.micro/-/uc.micro-1.0.6.tgz"
   "version" "1.0.6"
 
-"uih-st-ui@^0.5.0":
-  "integrity" "sha512-RxrVrbW2/vcJbDFYSvXAQDzcIyoJplRHxBfNXnziK/IPhvFPUmlsAAAoEql+RM+3MWVcaaeqLlRNaQGnn78qSA=="
-  "resolved" "https://registry.npmjs.org/uih-st-ui/-/uih-st-ui-0.5.0.tgz"
-  "version" "0.5.0"
+"uih-st-ui@^0.7.0":
+  "integrity" "sha512-vFndE1eLu7chKfozYsSpaMgIs+zluXPiKQdA2WjvqOeegDRLroAQf4ZW5gNh3tMUOcVaazHHrYSC2yYk3u1How=="
+  "resolved" "https://registry.npmjs.org/uih-st-ui/-/uih-st-ui-0.7.0.tgz"
+  "version" "0.7.0"
   dependencies:
     "@webcomponents/custom-elements" "^1.4.1"
     "ant-design-vue" "^2.0.1"
