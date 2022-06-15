@@ -1,8 +1,8 @@
 #!/usr/bin/env sh
 ###
- # @Author: WangJiaFeng
- # @Date: 2021-12-31 09:37:37
- # @LastEditTime: 2022-02-16 17:28:58
+ # @Author: ZhangQingLei
+ # @Date: 2022-06-15 09:37:37
+ # @LastEditTime: 2022-06-15 17:28:58
  # @Description: file content
  # @FilePath: \Blog\deploy.sh
 ### 
@@ -21,5 +21,5 @@ git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # github user
-git push -f git@github.com:Jeffrey-mu/UI-LIB.git master:sit
+git push -f git@https://github.com/qingleizhang123/st-ui-doc.git master:sit
 cd -

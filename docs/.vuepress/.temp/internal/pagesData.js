@@ -17,14 +17,14 @@ export const pagesData = {
   "v-08bf7b6d": () => import(/* webpackChunkName: "v-08bf7b6d" */"E:/demo/UI/st-ui-doc/docs/.vuepress/.temp/pages/components/pages/Slider.html.js").then(({ data }) => data),
   // path: /components/pages/TissueList.html
   "v-579c9feb": () => import(/* webpackChunkName: "v-579c9feb" */"E:/demo/UI/st-ui-doc/docs/.vuepress/.temp/pages/components/pages/TissueList.html.js").then(({ data }) => data),
-  // path: /document/introduction/
-  "v-7d85779a": () => import(/* webpackChunkName: "v-7d85779a" */"E:/demo/UI/st-ui-doc/docs/.vuepress/.temp/pages/document/introduction/index.html.js").then(({ data }) => data),
-  // path: /document/tips/
-  "v-5851f53c": () => import(/* webpackChunkName: "v-5851f53c" */"E:/demo/UI/st-ui-doc/docs/.vuepress/.temp/pages/document/tips/index.html.js").then(({ data }) => data),
   // path: /documents/introduction/
   "v-29e1a525": () => import(/* webpackChunkName: "v-29e1a525" */"E:/demo/UI/st-ui-doc/docs/.vuepress/.temp/pages/documents/introduction/index.html.js").then(({ data }) => data),
   // path: /documents/tips/
   "v-49edddc7": () => import(/* webpackChunkName: "v-49edddc7" */"E:/demo/UI/st-ui-doc/docs/.vuepress/.temp/pages/documents/tips/index.html.js").then(({ data }) => data),
+  // path: /document/introduction/
+  "v-7d85779a": () => import(/* webpackChunkName: "v-7d85779a" */"E:/demo/UI/st-ui-doc/docs/.vuepress/.temp/pages/document/introduction/index.html.js").then(({ data }) => data),
+  // path: /document/tips/
+  "v-5851f53c": () => import(/* webpackChunkName: "v-5851f53c" */"E:/demo/UI/st-ui-doc/docs/.vuepress/.temp/pages/document/tips/index.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"E:/demo/UI/st-ui-doc/docs/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
 }

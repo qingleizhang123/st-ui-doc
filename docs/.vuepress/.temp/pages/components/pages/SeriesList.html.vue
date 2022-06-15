@@ -209,7 +209,7 @@ const onSelectSeries = (series) =&gt; {
 function render(_ctx, _cache) {
   const _component_series_list = _resolveComponent("series-list")
 
-  return (_openBlock(), _createBlock(_component_series_list, { seriesList: _ctx.series }, null, 8 /* PROPS */, ["seriesList"]))
+  return (_openBlock(), _createBlock(_component_series_list, { seriesList: _ctx.series }, null, 8, ["seriesList"]))
 }
   
     const { ref } = Vue;
