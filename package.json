@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jeffrey-mu/UI-LIB.git"
+    "url": "git+https://github.com/qingleizhang123/st-ui-v2"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Jeffrey-mu/UI-LIB/issues"
+    "url": "https://github.com/qingleizhang123/st-ui-v2/issues"
   },
-  "homepage": "https://github.com/Jeffrey-mu/UI-LIB#readme",
+  "homepage": "https://github.com/qingleizhang123/st-ui-v2#readme",
   "devDependencies": {
     "vuepress": "^2.0.0-beta.46",
     "vuepress-plugin-demoblock-plus": "^1.6.0"
@@ -25,6 +25,6 @@
   "dependencies": {
     "@vuepress/plugin-register-components": "^2.0.0-beta.46",
     "ant-design-vue": "^2.2.8",
-    "uih-st-ui": "^0.5.0"
+    "uih-st-ui": "^0.7.0"
   }
 }

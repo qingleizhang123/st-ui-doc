@@ -1,22 +1,22 @@
 export const data = {
-  "key": "v-5d612751",
-  "path": "/components/pages/InputNumber.html",
-  "title": "Input 输入",
+  "key": "v-49edddc7",
+  "path": "/documents/tips/",
+  "title": "帮助",
   "lang": "zh-CN",
   "frontmatter": {},
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": 1655206536000,
+    "updatedTime": 1654515877000,
     "contributors": [
       {
         "name": "qinglei.zhang",
         "email": "qinglei.zhang@united-imaging.com",
-        "commits": 2
+        "commits": 1
       }
     ]
   },
-  "filePathRelative": "components/pages/InputNumber.md"
+  "filePathRelative": "documents/tips/README.md"
 }
 
 if (import.meta.webpackHot) {

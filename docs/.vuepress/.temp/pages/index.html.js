@@ -31,7 +31,16 @@ export const data = {
   },
   "excerpt": "",
   "headers": [],
-  "git": {},
+  "git": {
+    "updatedTime": 1654515877000,
+    "contributors": [
+      {
+        "name": "qinglei.zhang",
+        "email": "qinglei.zhang@united-imaging.com",
+        "commits": 1
+      }
+    ]
+  },
   "filePathRelative": "README.md"
 }
 
