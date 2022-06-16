@@ -1,0 +1,1 @@
+import{_ as r,o as a,c as t,a as e,d}from"./app.63653a42.js";const s={},c=e("h1",{id:"slider\u7EC4\u4EF6",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#slider\u7EC4\u4EF6","aria-hidden":"true"},"#"),d(" Slider\u7EC4\u4EF6")],-1),o=[c];function i(_,l){return a(),t("div",null,o)}var h=r(s,[["render",i],["__file","Slider.html.vue"]]);export{h as default};
