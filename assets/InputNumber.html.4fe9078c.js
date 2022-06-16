@@ -1,0 +1,1 @@
+const e={key:"v-5d612751",path:"/components/pages/InputNumber.html",title:"Input \u8F93\u5165",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1655350932e3,contributors:[{name:"qinglei.zhang",email:"qinglei.zhang@united-imaging.com",commits:1}]},filePathRelative:"components/pages/InputNumber.md"};export{e as data};
