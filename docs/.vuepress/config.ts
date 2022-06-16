@@ -7,6 +7,7 @@ import { sidebar } from './config/sidebar';
 const demoblockPlugin = require('vuepress-plugin-demoblock-plus')
 
 export default defineUserConfig({
+  base: '/st-ui-doc/',
   locales: {
     "/": {
       lang: "zh-CN",
