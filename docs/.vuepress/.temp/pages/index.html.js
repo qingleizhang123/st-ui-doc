@@ -32,12 +32,12 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": 1654515877000,
+    "updatedTime": 1655294118000,
     "contributors": [
       {
         "name": "qinglei.zhang",
         "email": "qinglei.zhang@united-imaging.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   },

@@ -167,7 +167,7 @@ const tissues = [
 function render(_ctx, _cache) {
   const _component_tissue_list = _resolveComponent("tissue-list")
 
-  return (_openBlock(), _createBlock(_component_tissue_list, { tissueList: _ctx.tissues }, null, 8, ["tissueList"]))
+  return (_openBlock(), _createBlock(_component_tissue_list, { tissueList: _ctx.tissues }, null, 8 /* PROPS */, ["tissueList"]))
 }
   
     const { ref } = Vue;
