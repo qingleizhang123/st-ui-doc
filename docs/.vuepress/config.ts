@@ -23,7 +23,7 @@ export default defineUserConfig({
   },
   theme: defaultTheme({
     logo: '/img/logo.png',
-    repo: "https://github.com/qingleizhang123/st-ui-v2",
+    repo: "https://github.com/qingleizhang123/st-ui-doc",
     docsDir: "docs",
     locales: {
       "/": {
@@ -31,6 +31,10 @@ export default defineUserConfig({
         navbar: navbar,
       },
     },
+    editLink: false,
+    editLinkText: '在 GitHub 上编辑此页',
+    lastUpdatedText: '上次更新',
+    contributorsText: '贡献者',
   }),
   markdown: {
     extractHeaders: {

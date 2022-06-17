@@ -1,6 +1,6 @@
 export const themeData = {
   "logo": "/img/logo.png",
-  "repo": "https://github.com/qingleizhang123/st-ui-v2",
+  "repo": "https://github.com/qingleizhang123/st-ui-doc",
   "docsDir": "docs",
   "locales": {
     "/": {
@@ -45,6 +45,26 @@ export const themeData = {
               }
             ],
             "collapsible": false
+          }
+        ],
+        "/document/introduction/": [
+          {
+            "text": "安装",
+            "children": [
+              {
+                "text": "安装",
+                "link": "/document/introduction/install"
+              }
+            ]
+          },
+          {
+            "text": "启动",
+            "children": [
+              {
+                "text": "启动",
+                "link": "/document/introduction/start"
+              }
+            ]
           }
         ]
       },
@@ -110,18 +130,18 @@ export const themeData = {
       "selectLanguageName": "English"
     }
   },
+  "editLink": false,
+  "editLinkText": "在 GitHub 上编辑此页",
+  "lastUpdatedText": "上次更新",
+  "contributorsText": "贡献者",
   "navbar": [],
   "darkMode": true,
   "selectLanguageText": "Languages",
   "selectLanguageAriaLabel": "Select language",
   "sidebar": "auto",
   "sidebarDepth": 2,
-  "editLink": true,
-  "editLinkText": "Edit this page",
   "lastUpdated": true,
-  "lastUpdatedText": "Last Updated",
   "contributors": true,
-  "contributorsText": "Contributors",
   "notFound": [
     "There's nothing here.",
     "How did we get here?",
@@ -132,4 +152,17 @@ export const themeData = {
   "openInNewWindow": "open in new window",
   "toggleDarkMode": "toggle dark mode",
   "toggleSidebar": "toggle sidebar"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateThemeData) {
+    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ themeData }) => {
+    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
+  })
 }

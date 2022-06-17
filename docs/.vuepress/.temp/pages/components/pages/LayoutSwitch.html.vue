@@ -117,14 +117,14 @@ function render(_ctx, _cache) {
       title: _ctx.title,
       layoutName: _ctx.layoutName,
       onChangeLayout: _ctx.changeLayout
-    }, null, 8, ["imgPath", "title", "layoutName", "onChangeLayout"]),
+    }, null, 8 /* PROPS */, ["imgPath", "title", "layoutName", "onChangeLayout"]),
     _createVNode(_component_layout_switch, {
       imgPath: _ctx.imgPath2,
       title: _ctx.title2,
       layoutName: _ctx.layoutName2,
       onChangeLayout: _ctx.changeLayout2
-    }, null, 8, ["imgPath", "title", "layoutName", "onChangeLayout"])
-  ], 64))
+    }, null, 8 /* PROPS */, ["imgPath", "title", "layoutName", "onChangeLayout"])
+  ], 64 /* STABLE_FRAGMENT */))
 }
   
     const { ref } = Vue;

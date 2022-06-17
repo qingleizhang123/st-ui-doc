@@ -30,6 +30,21 @@ export const sidebar: SidebarConfig = {
       link: '/components/pages/TissueList',
     }],
     collapsible: false
-  },
-  ],
+  }],
+  '/document/introduction/': [
+    {
+      text: '安装',
+      children: [{
+        text: '安装',
+        link: '/document/introduction/install'
+      }]
+    },
+    {
+      text: '启动',
+      children: [{
+        text: '启动',
+        link: '/document/introduction/start'
+      }]
+    }
+  ]
 }
