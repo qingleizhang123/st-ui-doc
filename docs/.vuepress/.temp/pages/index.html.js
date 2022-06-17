@@ -27,32 +27,19 @@ export const data = {
         "details": "VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。"
       }
     ],
-    "footer": "MIT Licensed | Copyright © 2018-present Evan You"
+    "footer": "MIT Licensed | Copyright © 2022-present qinglei.zhang"
   },
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": 1654515877000,
+    "updatedTime": 1655294118000,
     "contributors": [
       {
         "name": "qinglei.zhang",
         "email": "qinglei.zhang@united-imaging.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   },
   "filePathRelative": "README.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

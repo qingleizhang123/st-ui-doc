@@ -105,7 +105,7 @@ function render(_ctx, _cache) {
     imgPath: _ctx.imgPath,
     title: _ctx.title,
     onChange: _ctx.change
-  }, null, 8 /* PROPS */, ["imgPath", "title", "onChange"]))
+  }, null, 8, ["imgPath", "title", "onChange"]))
 }
   
     const { ref } = Vue;
