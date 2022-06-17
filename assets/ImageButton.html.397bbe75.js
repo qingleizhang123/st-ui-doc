@@ -1,1 +1,0 @@
-const t={key:"v-97cac252",path:"/components/pages/ImageButton.html",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1655350932e3,contributors:[{name:"qinglei.zhang",email:"qinglei.zhang@united-imaging.com",commits:1}]},filePathRelative:"components/pages/ImageButton.md"};export{t as data};

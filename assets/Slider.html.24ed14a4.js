@@ -1,0 +1,1 @@
+const e={key:"v-08bf7b6d",path:"/components/pages/Slider.html",title:"Slider\u7EC4\u4EF6",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1655451381e3,contributors:[{name:"qinglei.zhang",email:"qinglei.zhang@united-imaging.com",commits:1}]},filePathRelative:"components/pages/Slider.md"};export{e as data};

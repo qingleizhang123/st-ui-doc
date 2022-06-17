@@ -1,1 +1,0 @@
-const e={key:"v-1020f180",path:"/components/",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1655350932e3,contributors:[{name:"qinglei.zhang",email:"qinglei.zhang@united-imaging.com",commits:1}]},filePathRelative:"components/README.md"};export{e as data};

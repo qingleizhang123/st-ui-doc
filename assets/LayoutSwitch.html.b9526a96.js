@@ -1,0 +1,1 @@
+const t={key:"v-28da18a0",path:"/components/pages/LayoutSwitch.html",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1655451381e3,contributors:[{name:"qinglei.zhang",email:"qinglei.zhang@united-imaging.com",commits:1}]},filePathRelative:"components/pages/LayoutSwitch.md"};export{t as data};
