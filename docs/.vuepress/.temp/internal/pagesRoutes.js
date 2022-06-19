@@ -10,10 +10,10 @@ const routeItems = [
   ["v-488f9699","/components/pages/SeriesList.html",{"title":""},["/components/pages/SeriesList","/components/pages/SeriesList.md"]],
   ["v-08bf7b6d","/components/pages/Slider.html",{"title":"Slider组件"},["/components/pages/Slider","/components/pages/Slider.md"]],
   ["v-579c9feb","/components/pages/TissueList.html",{"title":""},["/components/pages/TissueList","/components/pages/TissueList.md"]],
+  ["v-377644b8","/document/introduction/install.html",{"title":""},["/document/introduction/install","/document/introduction/install.md"]],
   ["v-7d85779a","/document/introduction/",{"title":""},["/document/introduction/index.html","/document/introduction/README.md"]],
+  ["v-c917ae5e","/document/introduction/start.html",{"title":""},["/document/introduction/start","/document/introduction/start.md"]],
   ["v-5851f53c","/document/tips/",{"title":"帮助"},["/document/tips/index.html","/document/tips/README.md"]],
-  ["v-29e1a525","/documents/introduction/",{"title":""},["/documents/introduction/index.html","/documents/introduction/README.md"]],
-  ["v-49edddc7","/documents/tips/",{"title":"帮助"},["/documents/tips/index.html","/documents/tips/README.md"]],
   ["v-3706649a","/404.html",{"title":""},["/404"]],
 ]
 

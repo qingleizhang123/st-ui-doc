@@ -8,6 +8,6 @@ import { defineClientConfig } from '@vuepress/client'
 export default defineClientConfig({
   enhance({ app, router, siteData }) {
     app.use(Antd)
-    app.use(STUI);
+    app.use(STUI)
   }
 })
