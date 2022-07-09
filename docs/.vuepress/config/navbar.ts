@@ -4,15 +4,7 @@ export const navbar = [{
 },
 {
   text: '文档',
-  children: [{
-      text: '介绍',
-      link: '/document/introduction/'
-    },
-    {
-      text: '注意事项',
-      link: '/document/tips/'
-    },
-  ]
+  link: '/document/introduction'
 },
 {
   text: '工具箱',

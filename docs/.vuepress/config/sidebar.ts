@@ -31,7 +31,7 @@ export const sidebar: SidebarConfig = {
     }],
     collapsible: false
   }],
-  '/document/introduction/': [
+  '/document/introduction': [
     {
       text: '安装',
       children: [{
@@ -44,6 +44,13 @@ export const sidebar: SidebarConfig = {
       children: [{
         text: '启动',
         link: '/document/introduction/start'
+      }]
+    },
+    {
+      text: '注意事项',
+      children: [{
+        text: '注意事项',
+        link: '/document/introduction/tips'
       }]
     }
   ]

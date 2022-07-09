@@ -2,9 +2,10 @@ import { defineUserConfig } from "@vuepress/cli";
 import { defaultTheme } from "@vuepress/theme-default";
 import { path } from '@vuepress/utils';
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components';
+import { searchPlugin } from '@vuepress/plugin-search';
 import { navbar } from './config/navbar';
 import { sidebar } from './config/sidebar';
-const demoblockPlugin = require('vuepress-plugin-demoblock-plus')
+const demoblockPlugin = require('vuepress-plugin-demoblock-plus');
 
 export default defineUserConfig({
   base: '/st-ui-doc/',
@@ -43,6 +44,8 @@ export default defineUserConfig({
   },
   plugins: [
     demoblockPlugin(''),
+    searchPlugin({
+    }),
     [
       registerComponentsPlugin({
         componentsDir: path.resolve(__dirname, './components'),

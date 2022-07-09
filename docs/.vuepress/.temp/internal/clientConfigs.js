@@ -6,8 +6,9 @@ import clientConfig4 from 'E:/demo/UI/st-ui-doc/node_modules/@vuepress/plugin-np
 import clientConfig5 from 'E:/demo/UI/st-ui-doc/node_modules/@vuepress/plugin-theme-data/lib/client/config.js'
 import clientConfig6 from 'E:/demo/UI/st-ui-doc/node_modules/@vuepress/theme-default/lib/client/config.js'
 import clientConfig7 from 'E:/demo/UI/st-ui-doc/node_modules/vuepress-plugin-demoblock-plus/client/client.js'
-import clientConfig8 from 'E:/demo/UI/st-ui-doc/docs/.vuepress/.temp/register-components/clientConfig.6e24ba04.js'
-import clientConfig9 from 'E:/demo/UI/st-ui-doc/docs/.vuepress/client.ts'
+import clientConfig8 from 'E:/demo/UI/st-ui-doc/node_modules/@vuepress/plugin-search/lib/client/config.js'
+import clientConfig9 from 'E:/demo/UI/st-ui-doc/docs/.vuepress/.temp/register-components/clientConfig.6e24ba04.js'
+import clientConfig10 from 'E:/demo/UI/st-ui-doc/docs/.vuepress/client.ts'
 
 export const clientConfigs = [
   clientConfig0,
@@ -20,4 +21,5 @@ export const clientConfigs = [
   clientConfig7,
   clientConfig8,
   clientConfig9,
+  clientConfig10,
 ]

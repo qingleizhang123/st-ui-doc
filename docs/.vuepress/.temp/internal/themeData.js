@@ -47,7 +47,7 @@ export const themeData = {
             "collapsible": false
           }
         ],
-        "/document/introduction/": [
+        "/document/introduction": [
           {
             "text": "安装",
             "children": [
@@ -65,6 +65,15 @@ export const themeData = {
                 "link": "/document/introduction/start"
               }
             ]
+          },
+          {
+            "text": "注意事项",
+            "children": [
+              {
+                "text": "注意事项",
+                "link": "/document/introduction/tips"
+              }
+            ]
           }
         ]
       },
@@ -75,16 +84,7 @@ export const themeData = {
         },
         {
           "text": "文档",
-          "children": [
-            {
-              "text": "介绍",
-              "link": "/document/introduction/"
-            },
-            {
-              "text": "注意事项",
-              "link": "/document/tips/"
-            }
-          ]
+          "link": "/document/introduction"
         },
         {
           "text": "工具箱",

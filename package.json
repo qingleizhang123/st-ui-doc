@@ -19,12 +19,14 @@
   },
   "homepage": "https://github.com/qingleizhang123/st-ui-v2#readme",
   "devDependencies": {
+    "@vuepress/plugin-docsearch": "^2.0.0-beta.46",
+    "@vuepress/plugin-search": "^2.0.0-beta.46",
     "vuepress": "^2.0.0-beta.46",
     "vuepress-plugin-demoblock-plus": "^1.6.0"
   },
   "dependencies": {
     "@vuepress/plugin-register-components": "^2.0.0-beta.46",
     "ant-design-vue": "^2.2.8",
-    "uih-st-ui": "^0.7.0"
+    "uih-st-ui": "^0.8.0"
   }
 }
